@@ -49,6 +49,8 @@ cd microservices-demo
 
 kubectl apply -f deploy/kubernetes/manifests
 kubectl apply -f deploy/kubernetes/manifests-monitoring
+kubectl apply -f deploy/kubernetes/manifests-loadtest
+kubectl scale deploy load-test -n loadtest --replicas=0
 ```
 
 If there are no SockShop dashboards available in Grafana 
