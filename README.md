@@ -42,9 +42,9 @@
 ## Setup within Kubernetes cluster
 It can be performed from your local machine or from kube-master
 
-### [microservices-demo](https://github.com/k8loud/microservices-demo)
+### [microservices-demo](https://github.com/MoAM-CNEE/microservices-demo)
 ```
-git clone git@github.com:k8loud/microservices-demo.git
+git clone git@github.com:MoAM-CNEE/microservices-demo.git
 cd microservices-demo
 
 kubectl apply -f deploy/kubernetes/manifests
